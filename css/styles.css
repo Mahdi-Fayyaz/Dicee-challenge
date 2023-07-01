@@ -1,0 +1,100 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-image: url(../images/dice-profile1.jpg);
+  background-size:cover;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #4ECCA3;
+}
+  
+  @keyframes example {
+    0%   {color: red;}
+    10%  {color: rgb(255, 115, 0)}
+    15%  {color: rgb(236, 10, 206)}
+    20%  {color: rgb(29, 236, 10)}
+    25%  {color: rgb(0, 217, 255);}
+    30%  {color: rgb(0, 68, 255);}
+    35%  {color: rgb(45, 245, 5)}
+    40%  {color: rgb(69, 5, 245)}
+    45%  {color: rgb(245, 5, 45)}
+    50%  {color: rgb(173, 245, 5)}
+    55%  {color: blue;}
+    100% {color: rgb(6, 230, 6);}
+  }
+
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+  border-radius: 20px;
+}
+.imgwin{
+  box-shadow: 10px 10px 10px 5px rgb(45, 245, 5);
+}
+.imglost{
+  box-shadow: 10px 10px 5px 5px rgb(212, 22, 22);
+}
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+button{
+  background-color: #232931;
+  border: 5px solid #5b779b;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: white;
+  box-shadow: 5px 5px 5px 5px black;
+}
+button:hover{
+  background-color: #46515f;
+  border: 5px solid #476a97;
+}
+button:active{
+  background-color: #5790db;
+  border: 5px solid #3c3c3d;
+  box-shadow: 5px 5px 5px 2px rgb(82, 203, 224);
+}
+.btns{
+  padding: 20px;
+}
+.win{
+  background-color: #232931;
+  color: yellow;
+  box-shadow: 10px 10px 10px 10px rgb(29, 236, 10);
+  border-radius: 20px;
+  animation-name: example;
+    animation-duration: 2s;
+}
+.draw{
+  background-color: #232931;
+  color: rgb(255, 0, 0);
+  box-shadow: 10px 10px 10px 10px rgb(10, 210, 236);
+  border-radius: 20px;
+}
